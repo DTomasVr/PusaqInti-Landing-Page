@@ -2,14 +2,16 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: sans-serif;
   padding: 90px 20px 0;
 }
 
 .header {
-  background-color: #d5c3c3;
+  background-color: #a0a2b7;
   height: 80px;
   position: fixed;
   width: 100%;
@@ -74,6 +76,28 @@ body {
   display: none;
 }
 
+.Hero {
+  background-color: #ada5a2;
+}
+
+.AboutUs {
+  background-color: #d5c3c3;
+}
+
+.WhoWeAre {
+  background-color: #ada5a2;
+}
+
+.ContactUs {
+  background-color: #d5c3c3;
+}
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
 @media (max-width: 768px) {
   body {
     padding: 70px;
