@@ -10,3 +10,11 @@ navToggle.addEventListener("click",()=>{
         navToggle.setAttribute("aria-label", "Abrir menú");
       }
 });
+
+const menuLinks = document.querySelectorAll('.nav-menu a[href^="#"');
+
+menuLinks.forEach(menuLinks => {
+  menuLinks.addEventListener("click",function(){
+    navMenu.classList.toggle("nav-menu_visible")
+  })
+})
